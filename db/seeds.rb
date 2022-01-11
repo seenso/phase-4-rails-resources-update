@@ -1,5 +1,7 @@
 puts '🦩 Seeding birds...'
 
+Bird.destroy_all
+
 Bird.create!(name: 'Black-Capped Chickadee', species: 'Poecile Atricapillus')
 Bird.create!(name: 'Grackle', species: 'Quiscalus Quiscula')
 Bird.create!(name: 'Common Starling', species: 'Sturnus Vulgaris')
